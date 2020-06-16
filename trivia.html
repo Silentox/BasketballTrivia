@@ -1,0 +1,70 @@
+<DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700" rel="stylesheet"> 
+       </head>
+    <body id="mainPage">
+
+
+<div class="centerBox">
+    <div id="title">
+
+            <h1>Welcome To</h1>
+            <h2>Basketball Trivia</h2>
+            <h3>Shoot Your Shot To Start</h3>
+
+        </div>
+                                                      
+<button id="gameStart"><img src="basketball.jpg"></button>
+
+<div>
+
+           
+           
+        
+         
+                <div id="questionDiv"></div>
+                        <div id="optionDiv" color="#930F14"></div>
+                                <span class="correctDiv"></span>
+                                <span class="incorrectDiv"></span>
+
+                      
+                    </div>
+                    <button id="reloadDiv"style="display:none"></button>
+                    <span id="timer"></span>
+            </div>
+ 
+         
+<script>
+
+    let gameStart= document.getElementById("gameStart");
+    gameStart.addEventListener("click", function(){
+
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "script.js"; 
+    document.getElementsByTagName("head")[0].appendChild(script); 
+    gameStart.style.display="none";
+    $("#reloadDiv").hide()();
+
+    })
+</script>
+
+
+        </body>
+        </html>
+
+
+
+<!--  TO DO:
+    ANIMATE BASKETBALL TO HOOP
+    FONT FOR BALL
+    NICE BUTTONS
+    -->

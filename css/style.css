@@ -1,0 +1,70 @@
+#mainPage{
+    background-image: url("background.jpg");
+    opacity: 2;
+
+}
+ img{
+ width:50px;
+ height:50px;
+}
+
+#gameStart
+{
+    background:none;
+    border:none;
+}
+
+#gameStart 
+{
+    outline:0;
+}
+
+.button0, .button1, .button2, .button3{
+
+    margin: 0.1em;
+    padding: 1em;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    width:200px;
+    margin-right:auto;
+    background: transparent;
+   color:#930F14;
+   background-color: rgba(82, 187, 190, 0.1);
+   box-shadow: rgba(82, 187, 190, 0.6) 0px 0px 0px 1px inset;
+   opacity: 1;
+   font-family: 'Cabin Sketch', cursive;
+
+}
+div {
+  display:block;
+}
+.centerBox{
+    position: absolute; left: 500px;
+    top: 50%;                         
+    transform: translate(0, -50%);
+    height:350px;
+    margin:  auto;
+    text-align: center;
+    padding: 4%;
+} 
+
+h1{
+    color:orange;
+}
+#title{
+
+    font-family: 'Cabin Sketch', cursive;
+    color:black;
+    font-size:1000px;    
+}
+
+#questionDiv
+{
+    display:block;
+    top:-5;
+    width:200px;
+    margin:auto;
+    text-align:center;
+}
+
